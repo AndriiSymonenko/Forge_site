@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="решетки на окна, кованые оконные решетки, кованные изделия Харьков">
+    <meta name="description"
+        content="Производство решеток на окна, навесов, лестниц, перил, ворот в Харькове. Металлоконструкции и ковка.">
     <title>
         Кузня на конной - изготовление кованых изделий на заказ. Харьков, Украина
     </title>
@@ -50,6 +53,8 @@
             <button class="button button-request">Оставить заявку</button>
         </section>
     </header>
+    <!-- end header content -->
+
     <main class="main-content container">
         <section class="main-content__about">
             <h3 class="visually-hidden">Мастера Кузни на Конной</h3>
@@ -177,10 +182,102 @@
             </div>
         </section>
     </main>
-    <footer class="main-footer">
-        <div class="footer-contact"></div>
+    <!-- end main content -->
 
+    <footer class="main-footer">
+        <div class="footer-contact">
+            <p>Адрес: <br>
+                г. Харьков площадь Восстания, 1
+            </p>
+        </div>
+        <nav class="footer-navigation">
+            <span>Кузня на конном</span>
+            <ul class="site-navigation__list">
+                <li class="navigation__list-item">
+                    <a href="index.html">Главная</a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="about.html">О нас</a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="#">Наши работы</a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="#">Этапы работы</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer-social">
+            <ul class="footer-social__list">
+                <li class="social-list__item">
+                    <a class="social-list__item--link" href="viber://chat?number=+380#">
+                        <!-- paste phone number -->
+                        <span class="visually-hidden">Viber</span>
+                        <img src="img/viber-icon.svg" alt="viber" width="25" height="25" />
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__item--link" href="https://t.me/#">
+                        <span class="visually-hidden">Whatsapp</span>
+                        <img src="img/whatsapp-icon.svg" alt="Whatsapp" width="25" height="25" />
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__item--link" href="https://t.me/#">
+                        <span class="visually-hidden">Telegram</span>
+                        <img src="img/telegram-icon.svg" alt="telegram" width="25" height="25" />
+                    </a>
+                </li>
+
+
+
+
+                <li class="social-list__item">
+                    <a class="social-list__item--link" href="#">
+                        <span class="visually-hidden">Facebook</span>
+                        <img src="img/fb-icon.svg" alt="facebook" />
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__item--link" href="#">
+                        <span class="visually-hidden">Вконтакте</span>
+                        <img src="img/vk-icon.svg" alt="вконтакте" />
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__item--link" href="#">
+                        <span class="visually-hidden">Instagram</span>
+                        <img src="img/insta-icon.svg" alt="instagram" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="author">
+            <span>created</span>
+            <a href="#">Simwebdev</a>
+        </div>
     </footer>
+    <!-- end footer content -->
+    <section class="popup">
+        <h2 class="visually-hidden">Напишите нам</h2>
+        <form class="main-form popup-form" action="send.php" method="POST">
+            <label class="visually-hidden" for="name">Ваше имя</label>
+            <input type="text" name="name" id="name" placeholder="Ваше имя" />
+
+            <label class="visually-hidden" for="email">Ваша почта</label>
+            <input type="email" name="email" id="email" placeholder="Ваша почта" />
+
+            <label class="visually-hidden" for="phone">Ваш номер телефона</label>
+            <input type="text" name="phone" id="phone" placeholder="Ваш телефон" />
+
+            <button class="button button-submit" type="submit" name="button">
+                Отправить
+            </button>
+            <button class="modal-close" type="button">Закрыть</button>
+        </form>
+    </section>
 </body>
 
 </html>
