@@ -43,6 +43,8 @@ window.addEventListener("DOMContentLoaded", function () {
     validEmail.value = "";
   });
 
+
+
   //Validation Form
 
   function validationEmail() {
